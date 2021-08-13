@@ -67,7 +67,7 @@ formato:
 {
     "product_name": "Pechuguitas rellenas",
     "price": 350,
-    "stock": 1,
+    "stock": 1, (ó 0)
     "img_url": "dirección de la imagen del producto",
     "category": "carnes"
 }

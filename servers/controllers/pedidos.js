@@ -65,7 +65,7 @@ function newOrder(req, res) {
                     }
                 })
             });
-            res.status(200).json({ message: "Pedido creado" })
+            res.status(201).json({ message: "Pedido creado" })
         }
     })
 }

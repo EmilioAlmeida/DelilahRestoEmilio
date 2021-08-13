@@ -90,7 +90,7 @@ function deleteProduct(req, res) {
 
         sql = `DELETE FROM productos WHERE id = ${productId}`
     } else {
-        res.status(403).json({ message: "Solo un administrador puede crear eliminar productos" })
+        res.status(403).json({ message: "Solo un administrador puede eliminar productos" })
         return
     }
 
