@@ -37,5 +37,5 @@ app.put('/productos/:id', defineRol, validaRol, updateProduct);
 app.delete('/productos/:id', defineRol,  validaRol, deleteProduct); 
 
 app.listen(3000, function () {
-    console.log("El servidor esta corriendo en el puerto 3000")
+    console.log("El servidor está funcionando correctamente en puerto 3000")
 })
